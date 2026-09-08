@@ -1696,6 +1696,8 @@ public class SitemapManagerImpl implements SitemapManager {
 	private static final Map<String, String> _assetTypeKeysByClassName = Map.of(
 		AssetCategory.class.getName(),
 		SitemapConstants.ASSET_TYPE_KEY_CATEGORIES,
+		"com.liferay.commerce.product.model.CPDefinition",
+		SitemapConstants.ASSET_TYPE_KEY_COMMERCE_PRODUCTS,
 		JournalArticle.class.getName(),
 		SitemapConstants.ASSET_TYPE_KEY_WEB_CONTENT, Layout.class.getName(),
 		SitemapConstants.ASSET_TYPE_KEY_PAGES, ObjectEntry.class.getName(),
